@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Recipes" representedClassName="Recipes" syncable="YES" codeGenerationType="class">
+        <attribute name="cook_time" optional="YES" attributeType="String"/>
+        <attribute name="cooking_method" optional="YES" attributeType="String"/>
+        <attribute name="created_on" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="cuisine_type" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="modified_on" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="prep_time" optional="YES" attributeType="String"/>
+        <attribute name="recipe_image" optional="YES" attributeType="Binary"/>
+        <attribute name="yield" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Recipes" positionX="-54" positionY="-9" width="128" height="179"/>
+    </elements>
+</model>
